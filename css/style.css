@@ -1,0 +1,226 @@
+  /* propriétés du corps de la page */
+  body {
+    font-family: cursive, "lucida sans", Arial, Helvetica, sans-serif;
+    }
+
+   /* propriétés de l'entete de page */
+header {
+    background-image:linear-gradient(to left,#f35959,#f2ec50); 
+    border-radius: 30px;/* bord arrondis */
+    color: #333;
+    padding: 8px;
+    font-family: cursive, "lucida sans", Arial, Helvetica, sans-serif;
+  }
+
+   /* proprietes des titres */
+h1 {
+      font-size: 40px;
+      text-align: center;
+      color: #130f0f;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 30px;
+    } 
+
+h2 {
+      font-size: 30px;
+      text-align: center;
+      color: #130f0f;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 30px;
+      text-decoration: underline;
+    }
+
+
+    /* propriétés du menu  barre de navigation*/  
+  .menu {
+      border-radius: 30px; /* bords arrondis */
+      display: flex;   /* Transformation en flexbox*/
+      padding: 0;   /* Supression des marges internes*/
+      background-image:linear-gradient(to left,#70f250,#59f3ab);   /* ajout Couleur de fond*/
+      justify-content: center;   /* Centrage des éléments*/
+      border : solid 1px #050505;   /* Bordure de 1px avec couleur noire*/
+    }
+
+  .menu li {
+    list-style-type: none;   /* Suppression des puces*/
+    display: flex;
+  }
+
+
+  .menu a {
+    display: block;   /* Transformation en block*/
+    min-width: 120px;   /* Largeur minimale des liens*/;
+
+    margin: 0.5rem;   /* Marge interne (1 valeurs = 4 directions*/
+    padding: 0.5rem 0;  /* Marge externe (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;   /* Centrage du texte*/
+
+    background-image:linear-gradient(to left,#5edeef,#dce956, #e98fc0);  /* Couleur d'arrière plan*/
+    color: #333;   /* Couleur du texte*/  
+    text-decoration: none;   /* Suppression du soulignement*/
+    border: 1px solid #fff;   /* Bordure de 1px avec couleur blanche*/
+    border-radius: 20px;   /* arrondie des bordures*/
+
+    transition: all 1s;   /* Animation de transition de 1s*/
+  }
+
+
+     /* Changement de couleur au survol*/
+  .menu a:hover {
+    background-color: #fc222270;   /* Couleur d'arrière plan*/
+    color: #fc0606;   /* Couleur du texte*/
+  }   
+
+
+
+   /* Propriete du menu adresse caserne*/
+  .menu1 {
+list-style-type: none;   /* Suppression des puces*/
+    border: 1px dashed black;
+    text-align: center;
+
+
+/* Mise en forme tu texte en tableau */
+  }
+
+td{
+    padding: 10px;
+    text-align: center;   
+    column-width: 50rem;
+  }
+
+   /* proprietes du Main */
+
+main {
+     /*background-color: whitesmoke;*/
+     background-image: url("images/groupe.jpg");
+     text-align:center;
+
+
+  }
+section {
+      background-image: url("images/groupe.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+   /* propriétés du formulaire */  
+form {
+    border: 1px solid #f1f1f1;
+    width:100%
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+button:hover {
+    opacity: 0.8;
+  }
+
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+  .imgcontainer {
+    align-self: left;
+    margin: 25px 0 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 100%;
+
+  }
+
+  .avatar {
+    max-width: 20%;
+    display: block;
+    margin: auto;
+
+  }
+
+  .container {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10%;   
+  }
+
+   #container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10%; 
+  }
+
+input[type=submit] {
+    background-color: #f83a00;
+    color: white;
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+
+input[type=submit]:hover {
+    background-color: rgb(247, 232, 31);
+    color: #53af57;
+    border: 1px solid #53af57;
+  }
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+   /* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+  .login {
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+
+  }
+
+  .img{
+    display: flexbox    ;
+  }
+
+   /* propriétés du Footer */
+footer {
+        background-image:linear-gradient(to left,#f35959,#f2ec50); 
+        border-radius: 30px; /* bord arrondis */
+        color: #252323;
+        padding: 8px;
+        font-family: cursive, "lucida sans", Arial, Helvetica, sans-serif;     
+        text-align: center;
+  }
