@@ -1,6 +1,7 @@
   /* propriétés du corps de la page */
-  body {
+body {
     font-family: cursive, "lucida sans", Arial, Helvetica, sans-serif;
+  
     }
 
    /* propriétés de l'entete de page */
@@ -11,7 +12,7 @@ header {
     padding: 8px;
     font-family: cursive, "lucida sans", Arial, Helvetica, sans-serif;
   }
-
+  
    /* proprietes des titres */
 h1 {
       font-size: 40px;
@@ -75,7 +76,7 @@ h2 {
 
    /* Propriete du menu adresse caserne*/
   .menu1 {
-list-style-type: none;   /* Suppression des puces*/
+    list-style-type: none;   /* Suppression des puces*/
     border: 1px dashed black;
     text-align: center;
 
@@ -95,6 +96,7 @@ main {
      /*background-color: whitesmoke;*/
      background-image: url("images/groupe.jpg");
      text-align:center;
+     padding-top: 20px;
 
 
   }
