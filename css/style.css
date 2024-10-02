@@ -13,6 +13,22 @@ header {
     font-family: cursive, "lucida sans", Arial, Helvetica, sans-serif;
   }
   
+/* Insertion d'une image de fond*/
+.accueil::before {
+  content:"";
+  background-image: url(/images/Flamma.jpeg);
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.3;
+ 
+  left: 0;
+  width: 150%;
+  height: 120%;
+  z-index: -1;
+}
+
    /* proprietes des titres */
 h1 {
       font-size: 40px;
@@ -20,6 +36,7 @@ h1 {
       color: #130f0f;
       font-family: Arial, Helvetica, sans-serif;
       border-radius: 30px;
+      
     } 
 
 h2 {
@@ -109,7 +126,7 @@ section {
    /* propriétés du formulaire */  
 form {
     border: 1px solid #f1f1f1;
-    width:100%
+    width:100%;
     padding: 30px;
     background: #fff;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -135,7 +152,7 @@ button {
   }
 
 button:hover {
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .cancelbtn {

@@ -5,17 +5,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Amicales des Pompiers Léon</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+ <link href="css/style.css" rel="stylesheet" type="text/css" />
+  
 </head>
 
 <body>
+
   <header> 
     <!--entete de la page-->
+
     <table>
       <td>
          <!--logo-->
          <img src="images/Logo_SPleon3.png" alt="logo de l'amicale" width=150 reight=150></img>
       </td>
+
       <td>
         <h1>Amicale des pompiers de Leon</h1>
       </td>
@@ -26,8 +31,8 @@
           <li>173 Route de Languens</li>
           <li>40550 Léon</li>
           <li> tel : 06.14.81.77.03</li>
-          <li> mail : aspleon40@gamil.com</li>
-         <li><a href="mailto:aspleon40@gmail.com"">Contactez-nous!</a></li>
+          <li> mail : aspleon40@gmail.com</li>
+         <li><a href="mailto:aspleon40@gmail.com">Contactez-nous!</a></li>
         </ul>
       </td>
     
@@ -38,53 +43,36 @@
       <!--navigation-->
       <ul class="menu">
         <li>
-          <a href="index.html">Accueil</a>
+          <a href="/">Accueil</a>
         </li>
         
         <li>
-          <a href="evenements.html">Evènements</a>
+          <a href="/evenements">Evènements</a>
         </li>
 
         <li>
-           <a href="rdv.html">Prochain RDV</a>
+           <a href="/rdv">Prochain RDV</a>
         </li>
             
         <li>
-          <a href="galerie.html">Galerie</a>
+          <a href="/galerie">Galerie</a>
         </li>
-
-        <!-- <li>
-          <a href="mailto:aspleon40@gmail.com"> Contact</a>
-        </li>-->
         
         <li>
-            <a href="login.html" id="login">Connexion</a>
+            <a href="/login" id="login">Connexion</a>
         </li>
+
 			<!--fin de la navigation-->
+
        </ul>  
     </nav>
 
   </header>
   
-    <main>		
+    <main id="main-page">		
             
       <!--contenu principal de la page-->
-      <h1> Amicale des sapeurs pompiers de Léon vous présente son équipe </h1>
-				<h3>2022</h3>
-      <img src="#" alt="photo du groupe 2022" width="500" reight="500"></img>
-     
-        <h3> 2023 </h3>
-      <img src="images/groupe2023.png" alt="photo du groupe 2023" width=500 reight=500></img>
-     
-				<h3> 2024</h3>
-      <img src="images/groupe 2024(1).png" alt="photo du groupe 2024" width="500" reight="500"></img>
       
-      <hr/>
-      <section>
-        <h2> Recrutement</h2>
-    <p> Vous aimez l'action? Vous souhaitez aider les autres et faire preuve de solidarité? vous avez entre 18 et 50 ans, homme, femme, vous résidez ou travaillez à proximité du centre de secours...Rejoignez-nous <a href="images/recrutement.png" recrutement>Cliquez ICI </a>pour plus d'information</p> 
-
-      </section>	
   </main>	
   
  <footer>
@@ -100,6 +88,8 @@
  
     </footer>
   
-</body>
+    <script type="module" src="/Router/router.js"></script>
+
+  </body>
 
 </html>
