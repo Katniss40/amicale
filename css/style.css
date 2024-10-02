@@ -1,8 +1,8 @@
   /* propriétés du corps de la page */
-body {
-    font-family: cursive, "lucida sans", Arial, Helvetica, sans-serif;
-  
-    }
+html {
+  color:#050505;
+  font-family: cursive;
+}
 
    /* propriétés de l'entete de page */
 header {
@@ -25,7 +25,7 @@ header {
  
   left: 0;
   width: 150%;
-  height: 120%;
+  height: 140%;
   z-index: -1;
 }
 
